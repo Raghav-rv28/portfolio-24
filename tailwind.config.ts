@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      cursor: {
+        // kittysesh: "url(./app/favicon.ico), auto",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

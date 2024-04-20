@@ -5,13 +5,13 @@ export default async function About() {
   return (
     <div
       id="about"
-      className="flex flex-col min-h-screen items-start justify-start rounded-md bg-background"
+      className="flex flex-col min-h-screen items-start justify-start bg-background"
     >
       <div className="mt-10 text-center w-full">
         <AnimatedText text="About Me" fontSize="text-5xl" bold />
       </div>
-      <div className="flex justify-center m-10  flex-col">
-        <div className="bg-primary text-xl text-light p-10 w-3/5 self-start rounded-lg">
+      <div className="flex justify-center m-10 flex-col">
+        <div className="bg-primary text-lg text-light p-10 w-3/5 self-start rounded-lg">
           Senior Software Engineer with a Bachelor of Science in Computer
           Science from Lakehead University, with 3 years of Experience
           developing, maintaining and scaling Enterprise level applications.
@@ -28,6 +28,13 @@ export default async function About() {
             timePeriod="Nov 2023-Present"
             description="Working on Developing Ecommerce and in house solutions to increase sales,
             and time to sale efficiency"
+          />
+          <Experience
+            jobTitle="Full Stack Cloud Engineer | RSI"
+            timePeriod="May 2022 - Aug 2023"
+            description="Developed revenue-driving microservices with React, Node, and AWS;
+            led migration to serverless architecture; improved features and UX; promoted Agile practices."
+            alternate
           />
         </div>
       </div>

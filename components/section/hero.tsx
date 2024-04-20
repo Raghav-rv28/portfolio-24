@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "../ui/button";
 import AnimatedText from "../custom/animated-text";
 // import { motion } from "framer-motion";
 
@@ -7,9 +6,9 @@ export default async function Hero() {
   return (
     <div className="bg-background min-h-screen flex flex-col items-center justify-center text-white p-4">
       <h1 className="text-6xl font-bold">
-        <AnimatedText text="Raghav Rudhra" fontSize="text-8xl" />
+        <AnimatedText text="Raghav Rudhra" fontSize="text-5xl" />
       </h1>
-      <p className="text-3xl text-light mt-4">
+      <p className="text-xl text-light mt-4">
         Software Development Engineer with expertise in developing Full-Stack &
         Cloud solutions.
       </p>
@@ -19,7 +18,12 @@ export default async function Hero() {
       {/*     rotate: 10, */}
       {/*   }} */}
       {/* > */}
-      <Button className="mt-8 bg-primary text-secondary">ABOUT ME</Button>
+      <Link
+        className="m-5 bg-secondary p-2 px-4 rounded-md hover:bg-background hover:border-secondary hover:border-2"
+        href="#about"
+      >
+        ABOUT ME
+      </Link>
       {/* </motion.div> */}
       <nav className="mt-8">
         <ul className="flex space-x-6">
