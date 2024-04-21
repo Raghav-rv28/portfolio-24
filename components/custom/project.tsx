@@ -23,11 +23,17 @@ export default async function Project({
         <div
           className={cn(
             "py-10 w-full flex flex-col border-y-2 border-light",
-            alternate ? "text-end" : "",
+            alternate ? "text-center md:text-end" : "text-center md:text-start",
           )}
         >
-          <div className="p-10 pt-0 ">{title}</div>
-          <div className={alternate ? "pr-20 self-end" : "pl-20"}>
+          <div className="p-10 pt-0 text-3xl md:text-5xl">{title}</div>
+          <div
+            className={
+              alternate
+                ? "self-center md:pr-20 md:self-end"
+                : "self-center p-5 md:pl-20 md:self-start"
+            }
+          >
             <Image alt={title} src={imageUrl} width={384} height={216} />
           </div>
           <div className="text-base p-10">{description}</div>
@@ -39,11 +45,15 @@ export default async function Project({
       <div
         className={cn(
           "py-10 w-full flex flex-col border-y-2 border-light",
-          alternate ? "text-end" : "",
+          alternate ? "text-center md:text-end" : "text-center md:text-start",
         )}
       >
-        <div className="p-10 pt-0">{title}</div>
-        <div className={alternate ? "pr-20 self-end" : "pl-20"}>
+        <div className="p-10 pt-0 text-3xl md:text-5xl">{title}</div>
+        <div
+          className={
+            alternate ? "self-center md:pr-20 md:self-end" : "p-5 md:pl-20"
+          }
+        >
           <Link href={demo}>
             <Image alt={title} src={imageUrl} width={384} height={216} />
           </Link>

@@ -16,7 +16,7 @@ export default function Home() {
       {/* Fourth Section | Publications */}
       <Publications />
       {/* Fifth Section | Contact */}
-      <div className="w-full bg-background py-10 justify-center items-center flex">
+      <div className="w-full bg-background py-10 justify-center items-center flex border-t-light border-t-2">
         <Link
           className="mx-5 bg-secondary p-2 px-4 rounded-md hover:bg-background hover:border-secondary hover:border-2"
           href="mailto:raghavrudhra28@gmail.com"

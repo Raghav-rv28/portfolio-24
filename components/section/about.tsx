@@ -10,8 +10,8 @@ export default async function About() {
       <div className="mt-10 text-center w-full">
         <AnimatedText text="About Me" fontSize="text-5xl" bold />
       </div>
-      <div className="flex justify-center m-10 flex-col">
-        <div className="bg-primary text-lg text-light p-10 w-3/5 self-start rounded-lg">
+      <div className="flex justify-center  md:m-10 flex-col">
+        <div className="bg-primary text-base md:text-lg text-light p-5 md:p-10 w-4/5 md:w-3/5 self-center md:self-start rounded-lg">
           Senior Software Engineer with a Bachelor of Science in Computer
           Science from Lakehead University, with 3 years of Experience
           developing, maintaining and scaling Enterprise level applications.
@@ -21,7 +21,7 @@ export default async function About() {
           existing applications to use serverless and Microservices
           architecture.
         </div>
-        <div className="self-end bg-red-100 text-2xl m-10 w-3/5">
+        <div className="self-center md:self-end bg-red-100 text-2xl m-10 w-3/5">
           <AnimatedText text="Experience" fontSize="text-3xl" />
           <Experience
             jobTitle="Senior Software Engineer | Dubai Jewellers"
