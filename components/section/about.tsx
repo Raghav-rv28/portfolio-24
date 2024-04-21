@@ -36,6 +36,11 @@ export default async function About() {
             led migration to serverless architecture; improved features and UX; promoted Agile practices."
             alternate
           />
+          <Experience
+            jobTitle="Junior Software Engineer | Bangaree Solutions"
+            timePeriod="Jan 2020 - Nov 2021"
+            description="Participated in customer meetings, developed inventory tracking apps using React, Node.js, Flask, managed databases with PostgreSQL, MySQL, AWS storage, and created Python ETL scripts for data processing and analytics."
+          />
         </div>
       </div>
     </div>

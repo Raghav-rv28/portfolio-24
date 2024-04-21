@@ -33,7 +33,7 @@ export default function Experience({
         viewport={{ once: true, amount: 0.8 }}
       >
         <div className="text-2xl text-secondary font-bold">{jobTitle}</div>
-        <div className="text-xl text-light">{description}</div>
+        <div className="text-base md:text-xl text-light">{description}</div>
         <div className="text-base text-light text-end pr-16 my-2 font-mono">
           {timePeriod}
         </div>
