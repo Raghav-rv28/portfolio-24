@@ -5,7 +5,10 @@ import AnimatedText from "../custom/animated-text";
 export default async function Hero() {
   return (
     <div className="bg-background min-h-screen flex flex-col items-center justify-center text-white p-4">
-      <h1 className="font-bold opacity-0 md:opacity-100">
+      <h1 className="font-bold opacity-0 lg:opacity-100">
+        <AnimatedText text="Raghav Rudhra" fontSize="text-9xl" />
+      </h1>
+      <h1 className="font-bold opacity-0 md:opacity-100 lg:opacity-0">
         <AnimatedText text="Raghav Rudhra" fontSize="text-7xl" />
       </h1>
       <h1 className="text-xl font-bold md:opacity-0">
