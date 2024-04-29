@@ -15,7 +15,7 @@ export default async function Hero() {
         <AnimatedText text="Raghav" fontSize="text-3xl" />
         <AnimatedText text="Rudhra" fontSize="text-3xl" />
       </h1>
-      <p className="text-light mt-4">
+      <p className="text-light text-center m-4 text-base md:text-xl lg:text-3xl">
         Software Development Engineer with expertise in developing Full-Stack &
         Cloud solutions.
       </p>
