@@ -9,7 +9,7 @@ export default async function Hero() {
         <AnimatedText text="Raghav Rudhra" fontSize="text-9xl" />
       </h1>
       <h1 className="font-bold opacity-0 md:opacity-100 lg:opacity-0">
-        <AnimatedText text="Raghav Rudhra" fontSize="text-7xl" />
+        <AnimatedText text="Raghav Rudhra" fontSize="text-5xl" />
       </h1>
       <h1 className="text-xl font-bold md:opacity-0">
         <AnimatedText text="Raghav" fontSize="text-3xl" />
